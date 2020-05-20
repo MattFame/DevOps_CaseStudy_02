@@ -22,11 +22,11 @@ In this case study ;
 
 - If the path to your Python binary files doesn't exist, you should export the path into your environment variables
 
-- Later on, your script should look into the current directory for your Python application having the name "phone_book.py"
+- Later on, your script should look into the current directory for your Python application which has the name "phone_book.py"
 
 - If the script finds the application, it should run it
 
-- If the script can't find the application, it should clone it from your git repository which already has your application in it and run the application
+- If the script can't find the application, it should clone it from your git repository which already has your application in it and run the application. (But before that you should check if you have git installed and if not, you should install it first)
 
 - Your phone_book.py program should be able to list out all the people with their name, surname and phone number and sequence number (3 hard coded records are enough)
 
